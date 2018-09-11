@@ -1,0 +1,102 @@
+.navlist{
+	font-size: 18px;
+}
+.sider-bar .list-group-item{
+	border-radius: 3px;
+}
+img{
+	max-width: 100%;
+	display: block;
+	border-radius: 5px;
+}
+.header-nav{
+ background-color: #ffd900;
+}
+.navbar-brand{
+	background-image: url(../img/logo.png);
+	width: 80px;
+	background-size: 80%;
+}
+.navlist .active a{
+	background-color: #f2e70e;;
+}
+.list-group-item.active{
+	background-color: #ffd900;
+}
+.list-group-item.active:hover{
+	background-color: #ffd000;
+}
+.news-list-item .title{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	display: inline-block;
+}
+.news-list-item .info{
+	color: #999;
+}
+.news-list-item{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+.news-list-item:first-child{
+	padding-top: 0px;
+}
+.side-bar-card{
+	border-radius: 3px;
+	background-color: #ffd900;
+	margin-top: 15px;
+}
+.side-bar-card .car-title{
+	padding: 5px 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.side-bar-card .car-body .item{
+	padding: 10px 15px;
+}
+.side-bar-card .car-body .item:hover{
+	background-color: rgba(0,0,0,.08);
+}
+.side-bar-card .car-body .item .desc{
+	color: #999;
+}
+.news-status{
+	color: #999;
+}
+.news-status .label{
+	opacity: 0.5;
+}
+.news-content{
+	margin-top: 20px;
+}
+.news-content p{
+	padding-top: 10px;
+	font-size: 18px;
+}
+.side-bar-card .auther{
+	padding: 10px 5px;
+}
+.side-bar-card .auther .name{
+	font-size: 20px;
+	text-align: center;
+}
+.side-bar-card .auther .desc{
+	color: #999;
+}
+.container-small{
+	max-width: 500px;
+}
+.footer{
+	text-align: center;
+	border-top: 1px solid #ffd900;
+}
+.btn-primary{
+	background-color: #ffd900;
+	border-color: #ffd900;
+}
+.btn-primary:hover{
+	background-color: #ffd000;
+	border-color: #ffd000;
+}
